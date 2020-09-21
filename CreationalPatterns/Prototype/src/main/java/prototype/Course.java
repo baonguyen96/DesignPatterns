@@ -18,8 +18,6 @@ public abstract class Course implements Cloneable {
         }
     }
 
-    public abstract List<String> getTopics();
-
     @Override
     protected Object clone() throws CloneNotSupportedException {
         Course newCourse = (Course) super.clone();

@@ -6,7 +6,7 @@ import house.House;
 
 public class Main {
     public static void main(String[] args) {
-        // just need to change the concrete builder
+        // just need to change the concrete builder and will be able to create a coherent set of house features
         IHouseBuilder[] builders = new IHouseBuilder[]{new TownhouseBuilder(), new VillaBuilder()};
 
         for(IHouseBuilder builder : builders) {

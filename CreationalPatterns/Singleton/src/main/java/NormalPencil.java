@@ -5,10 +5,6 @@ public class NormalPencil {
         instanceId++;
     }
 
-    public int getInstanceId() {
-        return instanceId;
-    }
-
     @Override
     public String toString() {
         return "NormalPencil #" + instanceId;

@@ -5,7 +5,7 @@ import product.ITerminal;
 import product.WindowsKeyboard;
 import product.WindowsTerminal;
 
-public class WindowsFactory implements IFactory {
+public class WindowsOsFactory implements OsFactory {
     public IKeyboard createKeyboard() {
         return new WindowsKeyboard();
     }

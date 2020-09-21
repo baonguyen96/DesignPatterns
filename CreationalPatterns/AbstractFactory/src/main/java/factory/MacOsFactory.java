@@ -5,7 +5,7 @@ import product.MacKeyboard;
 import product.MacTerminal;
 import product.ITerminal;
 
-public class MacFactory implements IFactory {
+public class MacOsFactory implements OsFactory {
     public IKeyboard createKeyboard() {
         return new MacKeyboard();
     }

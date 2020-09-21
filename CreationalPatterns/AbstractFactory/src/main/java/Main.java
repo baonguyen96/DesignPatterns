@@ -1,15 +1,15 @@
-import factory.IFactory;
-import factory.MacFactory;
-import factory.WindowsFactory;
+import factory.OsFactory;
+import factory.MacOsFactory;
+import factory.WindowsOsFactory;
 import product.IKeyboard;
 import product.ITerminal;
 
 public class Main {
     public static void main(String[] args) {
         // normally would only have 1 statically, but implement here for demo
-        IFactory[] factories = new IFactory[]{new MacFactory(), new WindowsFactory()};
+        OsFactory[] factories = new OsFactory[]{new MacOsFactory(), new WindowsOsFactory()};
 
-        for (IFactory factory : factories) {
+        for (OsFactory factory : factories) {
             System.out.println(factory.getClass());
 
             IKeyboard keyboard = factory.createKeyboard();
