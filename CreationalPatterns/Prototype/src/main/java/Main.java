@@ -12,7 +12,7 @@ public class Main {
             CourseList.loadCache();
             LocalDateTime end = LocalDateTime.now();
             Duration duration = Duration.between(start, end);
-            System.out.println("Completed fetching in " + duration.toSeconds() + " second(s)");
+            System.out.println("Completed fetching in " + duration.getSeconds() + " second(s)");
 
             System.out.println();
 
@@ -22,7 +22,7 @@ public class Main {
             System.out.println(course);
             end = LocalDateTime.now();
             duration = Duration.between(start, end);
-            System.out.println("Completed cloning in " + duration.toSeconds() + " second(s)");
+            System.out.println("Completed cloning in " + duration.getSeconds() + " second(s)");
 
             System.out.println();
 
@@ -32,7 +32,7 @@ public class Main {
             System.out.println(course);
             end = LocalDateTime.now();
             duration = Duration.between(start, end);
-            System.out.println("Completed cloning in " + duration.toSeconds() + " second(s)");
+            System.out.println("Completed cloning in " + duration.getSeconds() + " second(s)");
         }
         catch (Exception e) {
             e.printStackTrace();
