@@ -1,6 +1,10 @@
 # GoF Design Patterns
 
-## [Creational Patterns](./CreationalPatterns)
+## Setup
+1. Java11 or above
+
+## Patterns
+### [Creational Patterns](./CreationalPatterns)
 
 - [Abstract Factory](./CreationalPatterns/AbstractFactory/src/main/java/Main.java): interface for creating families of related/dependent objects without specifying their concrete implementations
 - [Builder](./CreationalPatterns/Builder/src/main/java/Main.java): how a composite object gets created 
@@ -9,8 +13,8 @@
 - [Singleton](./CreationalPatterns/Singleton/src/main/java/Main.java): the sole instance of a class 
 
 
-## [Behavioral Patterns](./BehavioralPatterns)
+### [Behavioral Patterns](./BehavioralPatterns)
 
 
-## [Structural Patterns](./StructuralPatterns)
+### [Structural Patterns](./StructuralPatterns)
 

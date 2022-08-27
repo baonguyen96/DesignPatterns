@@ -10,9 +10,10 @@
         <module name="Prototype" />
         <module name="Singleton" />
         <module name="Builder" />
-        <module name="StructuralPatterns" />
+        <module name="Adapter" />
         <module name="BehavioralPatterns" />
         <module name="AbstractFactory" />
+        <module name="Bridge" />
       </profile>
     </annotationProcessing>
   </component>
