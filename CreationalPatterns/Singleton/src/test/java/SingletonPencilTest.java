@@ -1,11 +1,11 @@
-import org.junit.jupiter.api.Test;
+import org.junit.Test;
 
-import static org.junit.jupiter.api.Assertions.*;
+import static org.junit.Assert.assertEquals;
 
-class SingletonPencilTest {
+public class SingletonPencilTest {
 
     @Test
-    void testCreateNew() {
+    public void testCreateNew() {
         SingletonPencil pencil1 = SingletonPencil.getInstance();
         assertEquals("SingletonPencil #1", pencil1.toString());
 

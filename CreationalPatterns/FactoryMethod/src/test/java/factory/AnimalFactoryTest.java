@@ -1,26 +1,26 @@
 package factory;
 
 import animal.IAnimal;
-import org.junit.jupiter.api.Test;
+import org.junit.Test;
 
-import static org.junit.jupiter.api.Assertions.*;
+import static org.junit.Assert.assertEquals;
 
-class AnimalFactoryTest {
+public class AnimalFactoryTest {
 
     @Test
-    void makeAnimalCat() throws Exception {
+    public void makeAnimalCat() throws Exception {
         IAnimal animal = AnimalFactory.makeAnimal("cat");
         assertEquals("Cat says meow", animal.makeSound());
     }
 
     @Test
-    void makeAnimalTiger() throws Exception {
+    public void makeAnimalTiger() throws Exception {
         IAnimal animal = AnimalFactory.makeAnimal("tiger");
         assertEquals("Tiger roars", animal.makeSound());
     }
 
-    @Test
-    void makeAnimalUnknown() {
-        assertThrows(Exception.class, () -> AnimalFactory.makeAnimal("lion"));
+    @Test(expected = Exception.class)
+    public void makeAnimalUnknown() throws Exception {
+        AnimalFactory.makeAnimal("lion");
     }
 }

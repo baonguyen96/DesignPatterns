@@ -1,25 +1,30 @@
+import org.junit.After;
+import org.junit.Before;
+import org.junit.Test;
+
 import java.io.ByteArrayOutputStream;
 import java.io.PrintStream;
 
-import static org.junit.jupiter.api.Assertions.*;
+import static org.junit.Assert.assertEquals;
 
-class MainTest {
+
+public class MainTest {
     private final ByteArrayOutputStream outContent = new ByteArrayOutputStream();
     private final ByteArrayOutputStream errContent = new ByteArrayOutputStream();
 
-    @org.junit.jupiter.api.BeforeEach
+    @Before
     public void setUp() {
         System.setOut(new PrintStream(outContent));
         System.setErr(new PrintStream(errContent));
     }
 
-    @org.junit.jupiter.api.AfterEach
+    @After
     public void tearDown() {
         System.setOut(System.out);
         System.setErr(System.err);
     }
 
-    @org.junit.jupiter.api.Test
+    @Test
     public void main() {
         Main.main(new String[]{""});
         String expected = "class factory.MacOsFactory\n" +
