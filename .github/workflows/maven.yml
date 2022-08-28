@@ -22,9 +22,10 @@ jobs:
     - name: Code coverage
       run: |
         mvn clean test jacoco:report
-        jacoco_reports=($(find . -type f -name "*jacoco.csv"))
-        echo "jacoco_reports are $jacoco_reports"
-        final_report="final_report.csv"
-        cat "${jacoco_reports[0]}" | head -n 1 > "$final_report"
+        jacoco_reports=$(find . -type f -name "*jacoco.csv")
+        final_report="final_jacoco.csv"
+        echo "${jacoco_reports[0]}" | head -n 1 > "$final_report"
         echo "$jacoco_reports" | while read fname; do tail -n +2 "$fname" >> "$final_report"; done
         cat "$final_report" | column -t -s, | less -S
+    - name: Cleanup
+      run: find . -type f -name "*jacoco.csv" --delete
