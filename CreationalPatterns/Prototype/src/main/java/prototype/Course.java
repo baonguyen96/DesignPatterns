@@ -25,7 +25,13 @@ public abstract class Course implements Cloneable {
         return newCourse;
     }
 
-    public abstract List<String> getTopics();
+    public String getName() {
+        return name;
+    }
+
+    public UUID getId() {
+        return id;
+    }
 
     @Override
     public String toString() {

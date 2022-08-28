@@ -7,9 +7,9 @@ import java.time.LocalDateTime;
 public class Main {
     public static void main(String[] args) {
         try {
-            System.out.println("Fetching cache, should be around 4 seconds");
+            System.out.println("Fetching from storage, should be around 4 seconds");
             LocalDateTime start = LocalDateTime.now();
-            CourseList.loadCache();
+            CourseList.loadFromStorage();
             LocalDateTime end = LocalDateTime.now();
             Duration duration = Duration.between(start, end);
             System.out.println("Completed fetching in " + duration.getSeconds() + " second(s)");
