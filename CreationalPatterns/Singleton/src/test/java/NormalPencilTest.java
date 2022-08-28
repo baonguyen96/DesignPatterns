@@ -1,11 +1,11 @@
-import org.junit.jupiter.api.Test;
+import org.junit.Test;
 
-import static org.junit.jupiter.api.Assertions.*;
+import static org.junit.Assert.assertEquals;
 
-class NormalPencilTest {
+public class NormalPencilTest {
 
     @Test
-    void testCreateNew() {
+    public void testCreateNew() {
         NormalPencil pencil1 = new NormalPencil();
         assertEquals("NormalPencil #1", pencil1.toString());
 
