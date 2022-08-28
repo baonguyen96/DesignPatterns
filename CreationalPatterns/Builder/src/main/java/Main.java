@@ -9,7 +9,7 @@ public class Main {
         // just need to change the concrete builder and will be able to create a coherent set of house features
         IHouseBuilder[] builders = new IHouseBuilder[]{new TownhouseBuilder(), new VillaBuilder()};
 
-        for(IHouseBuilder builder : builders) {
+        for (IHouseBuilder builder : builders) {
             System.out.println(builder.getClass());
 
             HouseDirector director = new HouseDirector(builder);
@@ -19,6 +19,5 @@ public class Main {
 
             System.out.println();
         }
-
     }
 }
