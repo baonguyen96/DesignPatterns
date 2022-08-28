@@ -23,4 +23,4 @@ This repository is collection of small demos for each GoF design patterns.
 - TBD
 
 ### [Structural Patterns](./StructuralPatterns)
-- TBD
+- [Adapter](./StructuralPatterns/Adapter/src/main/java/Main.java): allows objects with incompatible interfaces to collaborate
