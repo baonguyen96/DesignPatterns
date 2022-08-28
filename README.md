@@ -43,5 +43,5 @@ _Source: [Wikipedia](https://en.wikipedia.org/wiki/Creational_pattern)_
 
 _Source: [Scaler Topics](https://www.scaler.com/topics/design-patterns/structural-design-pattern/)_
 
-
 - [Adapter](./StructuralPatterns/Adapter/src/main/java/Main.java): allows objects with incompatible interfaces to collaborate
+- [Bridge](./StructuralPatterns/Bridge/src/main/java/Main.java): split a large class or a set of closely related classes into two separate hierarchies—abstraction and implementation—which can be developed independently of each other
