@@ -22,7 +22,4 @@ jobs:
     - name: Code coverage
       run: |
         mvn clean test jacoco:report
-        pwd
-        find . -type f -name "jacoco.csv" | while read fname; do \
-          cat "$fname" | column -t -s, | less -S \
-        done
+        find . -type f -name "*jacoco.csv" | while read fname; do cat "$fname" | column -t -s, | less -S; done
