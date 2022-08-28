@@ -1,15 +1,15 @@
 import adapter.CsvReader;
-import adapter.ExcelReaderAdapter;
+import adapter.ExcelReader;
 import adapter.IReader;
-import external.ExcelReader;
+import external.ExternalExcelReader;
 
 public class Main {
     public static void main(String[] args) {
         // can wrap this in a factory for cleaner consumption
         IReader csv = new CsvReader();
-        csv.read();
+        System.out.println(csv.read());
 
-        IReader excel = new ExcelReaderAdapter(new ExcelReader());
-        excel.read();
+        IReader excel = new ExcelReader(new ExternalExcelReader());
+        System.out.println(excel.read());
     }
 }
