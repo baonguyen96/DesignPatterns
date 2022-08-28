@@ -7,7 +7,7 @@ This repository is collection of small demos for each GoF design patterns.
 
 ## Setup
 1. Java11 or above
-2. Tests with JUnit5
+2. Tests with JUnit4
 
 
 ## Patterns

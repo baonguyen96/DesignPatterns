@@ -25,7 +25,7 @@ jobs:
         jacoco_reports=$(find . -type f -name "*jacoco.csv")
         final_report="final_jacoco.csv"
         cat $(echo "${jacoco_reports[0]}") | head -n 1 > "$final_report"
-        echo "$jacoco_reports" | while read fname; do tail -n +2 "$fname" >> "$final_report"; done
+        echo "$jacoco_reports" | while read file_name; do tail -n +2 "$file_name" >> "$final_report"; done
         cat "$final_report" | column -t -s, | less -S
     - name: Cleanup
       run: find . -type f -name "*jacoco.csv" -delete
