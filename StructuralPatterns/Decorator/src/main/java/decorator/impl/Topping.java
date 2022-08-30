@@ -1,4 +1,6 @@
-package decorator;
+package decorator.impl;
+
+import decorator.Pizza;
 
 public class Topping implements Pizza {
     protected Pizza pizza;

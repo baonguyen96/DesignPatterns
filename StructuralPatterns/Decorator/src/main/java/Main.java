@@ -1,4 +1,8 @@
 import decorator.*;
+import decorator.impl.BasePizza;
+import decorator.impl.Chicken;
+import decorator.impl.Olive;
+import decorator.impl.Pepperoni;
 
 public class Main {
     public static void main(String[] args) {

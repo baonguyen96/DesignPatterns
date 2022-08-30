@@ -1,5 +1,9 @@
 package decorator;
 
+import decorator.impl.BasePizza;
+import decorator.impl.Chicken;
+import decorator.impl.Olive;
+import decorator.impl.Pepperoni;
 import org.junit.Before;
 import org.junit.Test;
 

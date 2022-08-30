@@ -1,4 +1,6 @@
-package decorator;
+package decorator.impl;
+
+import decorator.Pizza;
 
 public class Olive extends Topping {
     public Olive(Pizza pizza) {

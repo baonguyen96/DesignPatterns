@@ -64,7 +64,7 @@ _Source: [Scaler Topics](https://www.scaler.com/topics/design-patterns/structura
 - [Adapter](./StructuralPatterns/Adapter/src/main/java/Main.java): allows objects with incompatible interfaces to collaborate
 - [Bridge](./StructuralPatterns/Bridge/src/main/java/Main.java): split a large class or a set of closely related classes into two separate hierarchies—abstraction and implementation—which can be developed independently of each other
 - [Composite](./StructuralPatterns/Composite/src/main/java/Main.java): composition of an object in a tree-like structure
-- [Decorator](#): responsibilities of an object without subclassing
+- [Decorator](./StructuralPatterns/Decorator/src/main/java/Main.java): responsibilities of an object without subclassing
 - [Facade](#): interface to a subsystem
 - [Flyweight](#): storage costs of object
 - [Proxy](#): how object is accessed
