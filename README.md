@@ -19,6 +19,24 @@ Additional resources can be found at:
 
 ## Patterns
 
+### [Behavioral Patterns](./BehavioralPatterns)
+> Behavioral design patterns are design patterns that identify common communication patterns between objects and realize these patterns. By doing so, these patterns increase flexibility in carrying out this communication.
+
+_Source: [Source Making](https://sourcemaking.com/design_patterns/behavioral_patterns#:~:text=In%20software%20engineering%2C%20behavioral%20design,in%20carrying%20out%20this%20communication.)_
+
+- [Chain of Responsibility](#): object that can fulfill a request
+- [Command](#): when and how a request is fulfilled
+- [Interpreter](#): grammar and interpretation of a language
+- [Iterator](#): how an aggregate's elements are accessed and traversed
+- [Mediator](#): how and which objects interact with each other
+- [Memento](#): what and when private information is stored outside an object
+- [Observer](#): number of objects that depend on another object, how the dependent objects stay up-to-date
+- [State](#): states of an object
+- [Strategy](#): implementation of different algorithms at runtime
+- [Template Method](#): steps of an algorithm
+- [Visitor](#): operations that can be applied to object(s) without changing their class(es)
+
+
 ### [Creational Patterns](./CreationalPatterns)
 
 <blockquote>
@@ -36,24 +54,6 @@ _Source: [Wikipedia](https://en.wikipedia.org/wiki/Creational_pattern)_
 - [Factory Method](./CreationalPatterns/FactoryMethod/src/main/java/Main.java): subclass of object that is instantiated
 - [Prototype](./CreationalPatterns/Prototype/src/main/java/Main.java): class of object that is instantiated 
 - [Singleton](./CreationalPatterns/Singleton/src/main/java/Main.java): the sole instance of a class 
-
-
-### [Behavioral Patterns](./BehavioralPatterns)
-> Behavioral design patterns are design patterns that identify common communication patterns between objects and realize these patterns. By doing so, these patterns increase flexibility in carrying out this communication.
-
-_Source: [Source Making](https://sourcemaking.com/design_patterns/behavioral_patterns#:~:text=In%20software%20engineering%2C%20behavioral%20design,in%20carrying%20out%20this%20communication.)_
-
-- [Chain of Responsibility](#): object that can fulfill a request
-- [Command](#): when and how a request is fulfilled
-- [Interpreter](#): grammar and interpretation of a language
-- [Iterator](#): how an aggregate's elements are accessed and traversed
-- [Mediator](#): how and which objects interact with each other
-- [Memento](#): what and when private information is stored outside an object
-- [Observer](#): number of objects that depend on another object, how the dependent objects stay up-to-date
-- [State](#): states of an object
-- [Strategy](#): implementation of different algorithms at runtime
-- [Template Method](#): steps of an algorithm
-- [Visitor](#): operations that can be applied to object(s) without changing their class(es)
 
 
 ### [Structural Patterns](./StructuralPatterns)
