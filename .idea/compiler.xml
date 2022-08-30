@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="Decorator" />
         <module name="FactoryMethod" />
+        <module name="Facade" />
         <module name="Prototype" />
         <module name="Composite" />
         <module name="Singleton" />
