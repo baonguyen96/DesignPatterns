@@ -18,13 +18,11 @@ public class ProxyService implements IService {
         return Arrays.asList(checkAccess(), String.join("\n", realService.handleRequest()), logAccess());
     }
 
-    private String checkAccess()
-    {
+    private String checkAccess() {
         return "ProxyService: Checking access prior to firing a real request";
     }
 
-    private String logAccess()
-    {
+    private String logAccess() {
         return "ProxyService: Logging the time of request";
     }
 
