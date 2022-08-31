@@ -1,5 +1,6 @@
 # GoF Design Patterns
 
+[![Java CI with Maven](https://github.com/baonguyen96/DesignPatterns/actions/workflows/maven.yml/badge.svg?branch=master)](https://github.com/baonguyen96/DesignPatterns/actions/workflows/maven.yml)
 
 ## Introduction
 This repository is collection of simple demos for each GoF design patterns.
