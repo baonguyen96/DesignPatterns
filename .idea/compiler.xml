@@ -10,6 +10,7 @@
         <module name="FactoryMethod" />
         <module name="Facade" />
         <module name="Prototype" />
+        <module name="Flyweight" />
         <module name="Composite" />
         <module name="Singleton" />
         <module name="Builder" />

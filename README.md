@@ -66,5 +66,5 @@ _Source: [Scaler Topics](https://www.scaler.com/topics/design-patterns/structura
 - [Composite](./StructuralPatterns/Composite/src/main/java/Main.java): composition of an object in a tree-like structure
 - [Decorator](./StructuralPatterns/Decorator/src/main/java/Main.java): responsibilities of an object without subclassing
 - [Facade](./StructuralPatterns/Facade/src/main/java/Main.java): interface to a subsystem
-- [Flyweight](#): storage costs of object
+- [Flyweight](./StructuralPatterns/Flyweight/src/main/java/Main.java): optimize storage costs of similar objects
 - [Proxy](#): how object is accessed
