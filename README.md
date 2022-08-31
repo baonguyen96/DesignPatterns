@@ -68,4 +68,4 @@ _Source: [Scaler Topics](https://www.scaler.com/topics/design-patterns/structura
 - [Decorator](./StructuralPatterns/Decorator/src/main/java/Main.java): responsibilities of an object without subclassing
 - [Facade](./StructuralPatterns/Facade/src/main/java/Main.java): interface to a subsystem
 - [Flyweight](./StructuralPatterns/Flyweight/src/main/java/Main.java): optimize storage costs of similar objects
-- [Proxy](#): how object is accessed
+- [Proxy](./StructuralPatterns/Proxy/src/main/java/Main.java): provide a substitute or placeholder for another object
