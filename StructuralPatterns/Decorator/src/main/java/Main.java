@@ -6,6 +6,7 @@ import decorator.impl.Pepperoni;
 
 public class Main {
     public static void main(String[] args) {
+        // can use Builder or Factory to construct this chain in real world for cleaner
         Pizza pizza = new BasePizza();
         display(pizza);
 
