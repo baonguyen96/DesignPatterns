@@ -3,9 +3,9 @@
 [![Java CI with Maven](https://github.com/baonguyen96/DesignPatterns/actions/workflows/maven.yml/badge.svg?branch=master)](https://github.com/baonguyen96/DesignPatterns/actions/workflows/maven.yml)
 
 ## Introduction
-This repository is collection of simple demos for each GoF design patterns.
+This repository is collection of simple demos and examples for each and every GoF design patterns.
 
-Additional resources can be found at:
+Additional resources (but not limited to) can be found at:
 1. [Wikipedia](https://en.wikipedia.org/wiki/Design_Patterns)
 2. [Refactoring Guru](https://refactoring.guru/design-patterns)
 3. [Scaler Topics](https://www.scaler.com/topics/design-patterns)
@@ -25,8 +25,8 @@ Additional resources can be found at:
 
 _Source: [Source Making](https://sourcemaking.com/design_patterns/behavioral_patterns#:~:text=In%20software%20engineering%2C%20behavioral%20design,in%20carrying%20out%20this%20communication.)_
 
-- [Chain of Responsibility](#): object that can fulfill a request
-- [Command](#): when and how a request is fulfilled
+- [Chain of Responsibility](./BehavioralPatterns/ChainOfResponsibility/src/main/java/Main.java): object that can fulfill a request
+- [Command](./BehavioralPatterns/Command/src/main/java/Main.java): when and how a request is fulfilled
 - [Interpreter](#): grammar and interpretation of a language
 - [Iterator](#): how an aggregate's elements are accessed and traversed
 - [Mediator](#): how and which objects interact with each other

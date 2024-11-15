@@ -12,12 +12,13 @@
         <module name="Composite" />
         <module name="Builder" />
         <module name="Adapter" />
-        <module name="BehavioralPatterns" />
         <module name="AbstractFactory" />
         <module name="Decorator" />
         <module name="Proxy" />
         <module name="Flyweight" />
+        <module name="Command" />
         <module name="Singleton" />
+        <module name="ChainOfResponsibility" />
         <module name="Bridge" />
       </profile>
     </annotationProcessing>
