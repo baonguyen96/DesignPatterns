@@ -31,10 +31,10 @@ _Source: [Source Making](https://sourcemaking.com/design_patterns/behavioral_pat
 - [Iterator](./BehavioralPatterns/Iterator/src/main/java/Main.java): how an aggregate's elements are accessed and traversed
 - [Mediator](#): how and which objects interact with each other
 - [Memento](#): what and when private information is stored outside an object
-- [Observer](#): number of objects that depend on another object, how the dependent objects stay up-to-date
+- [Observer](./BehavioralPatterns/Observer/src/main/java/Main.java): number of objects that depend on another object, how the dependent objects stay up-to-date
 - [State](#): states of an object
 - [Strategy](#): implementation of different algorithms at runtime
-- [Template Method](#): steps of an algorithm
+- [Template Method](./BehavioralPatterns/TemplateMethod/src/main/java/Main.java): steps of an algorithm
 - [Visitor](#): operations that can be applied to object(s) without changing their class(es)
 
 
