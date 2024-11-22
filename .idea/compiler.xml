@@ -18,6 +18,7 @@
         <module name="Flyweight" />
         <module name="Command" />
         <module name="Singleton" />
+        <module name="Observer" />
         <module name="Iterator" />
         <module name="ChainOfResponsibility" />
         <module name="Bridge" />
