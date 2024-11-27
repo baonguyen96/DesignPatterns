@@ -21,6 +21,7 @@
         <module name="Singleton" />
         <module name="Observer" />
         <module name="Iterator" />
+        <module name="Strategy" />
         <module name="ChainOfResponsibility" />
         <module name="Bridge" />
       </profile>
