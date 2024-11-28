@@ -22,6 +22,7 @@
         <module name="Observer" />
         <module name="Iterator" />
         <module name="Strategy" />
+        <module name="Mediator" />
         <module name="ChainOfResponsibility" />
         <module name="Bridge" />
       </profile>
