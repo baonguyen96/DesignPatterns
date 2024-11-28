@@ -13,7 +13,7 @@ Additional resources (but not limited to) can be found at:
 
 
 ## Setup
-1. Java 1.8 or above, preferably Java 11
+1. Java 1.8 or above
 2. Maven, preferably Maven 3
 3. Tests with JUnit4, Jacoco, Surefire
 
@@ -33,7 +33,7 @@ _Source: [Source Making](https://sourcemaking.com/design_patterns/behavioral_pat
 - [Memento](#): what and when private information is stored outside an object
 - [Observer](./BehavioralPatterns/Observer/src/main/java/Main.java): number of objects that depend on another object, how the dependent objects stay up-to-date
 - [State](#): states of an object
-- [Strategy](#): implementation of different algorithms at runtime
+- [Strategy](./BehavioralPatterns/Strategy/src/main/java/Main.java): implementation of different algorithms at runtime
 - [Template Method](./BehavioralPatterns/TemplateMethod/src/main/java/Main.java): steps of an algorithm
 - [Visitor](#): operations that can be applied to object(s) without changing their class(es)
 
