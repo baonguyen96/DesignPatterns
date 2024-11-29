@@ -3,6 +3,7 @@ package sql.context;
 import org.junit.Test;
 import sql.language.Expression;
 import sql.language.impl.From;
+import sql.language.impl.Limit;
 import sql.language.impl.Select;
 import sql.language.impl.Where;
 
@@ -37,6 +38,13 @@ public class ContextTest {
         List<String> expected = Arrays.asList("Kitty", "Dungo", "Ravenclaw");
         List<String> actual = query.interpret(context);
         assertEquals(expected, actual);
+    }
+
+    @Test
+    public void search_allWithLimit() {
+        Expression query = new Limit(1, new Select(Collections.singletonList("*"), new From("pet")));
+        List<String> actual = query.interpret(context);
+        assertEquals(1, actual.size());
     }
 
     @Test

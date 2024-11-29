@@ -10,6 +10,7 @@ public class Context {
     private String table;
     private List<String> columns;
     private Map<String, Predicate<String>> whereFilters;
+    private int limit;
 
     static {
         tables.put("people", new Table("people", Arrays.asList(
@@ -33,6 +34,7 @@ public class Context {
         this.table = null;
         this.columns = new ArrayList<>();
         this.whereFilters = new HashMap<>();
+        this.setLimit(Integer.MAX_VALUE);
     }
 
     public void setTable(String table) {
@@ -47,6 +49,10 @@ public class Context {
         this.whereFilters.put(name, whereFilter);
     }
 
+    public void setLimit(int limit) {
+        this.limit = Math.max(0, limit);
+    }
+
     public List<String> search() {
         List<String> result = tables
                 .entrySet()
@@ -59,6 +65,7 @@ public class Context {
                         .stream()
                         .allMatch(column -> !this.whereFilters.containsKey(column.getName()) || this.whereFilters.get(column.getName()).test(column.getValue()))
                 )
+                .limit(this.limit)
                 .map(row -> row
                         .getColumns()
                         .stream()
