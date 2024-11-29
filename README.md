@@ -27,7 +27,7 @@ _Source: [Source Making](https://sourcemaking.com/design_patterns/behavioral_pat
 
 - [Chain of Responsibility](./BehavioralPatterns/ChainOfResponsibility/src/main/java/Main.java): object that can fulfill a request
 - [Command](./BehavioralPatterns/Command/src/main/java/Main.java): when and how a request is fulfilled
-- [Interpreter](#): grammar and interpretation of a language
+- [Interpreter](./BehavioralPatterns/Interpreter/src/main/java/Main.java): grammar and interpretation of a language
 - [Iterator](./BehavioralPatterns/Iterator/src/main/java/Main.java): how an aggregate's elements are accessed and traversed
 - [Mediator](./BehavioralPatterns/Mediator/src/main/java/Main.java): how and which objects interact with each other
 - [Memento](#): what and when private information is stored outside an object

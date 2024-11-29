@@ -16,6 +16,7 @@
         <module>TemplateMethod</module>
         <module>Strategy</module>
         <module>Mediator</module>
+        <module>Interpreter</module>
     </modules>
     <modelVersion>4.0.0</modelVersion>
 

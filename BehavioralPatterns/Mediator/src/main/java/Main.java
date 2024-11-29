@@ -9,8 +9,8 @@ public class Main {
         Participant participant1 = new Participant("1", mediator);
         Participant participant2 = new Participant("2", mediator);
 
+        participant0.send("how are you folks?");
         participant1.send("hi all");
         participant2.send("nice to see you");
-        participant0.send("how are you folks?");
     }
 }

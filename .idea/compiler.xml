@@ -10,6 +10,7 @@
         <module name="FactoryMethod" />
         <module name="Facade" />
         <module name="Prototype" />
+        <module name="Interpreter" />
         <module name="Composite" />
         <module name="Builder" />
         <module name="Adapter" />
