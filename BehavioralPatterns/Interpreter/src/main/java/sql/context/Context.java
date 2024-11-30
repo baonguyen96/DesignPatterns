@@ -50,7 +50,7 @@ public class Context {
     }
 
     public void setLimit(int limit) {
-        this.limit = Math.max(0, limit);
+        this.limit = limit < 0 ? Integer.MAX_VALUE : limit;
     }
 
     public List<String> search() {

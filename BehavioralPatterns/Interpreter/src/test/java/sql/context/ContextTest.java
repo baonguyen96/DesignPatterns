@@ -43,8 +43,10 @@ public class ContextTest {
     @Test
     public void search_allWithLimit() {
         Expression query = new Limit(1, new Select(Collections.singletonList("*"), new From("pet")));
-        List<String> actual = query.interpret(context);
-        assertEquals(1, actual.size());
+        assertEquals(1, query.interpret(context).size());
+
+        query = new Limit(-1, new Select(Collections.singletonList("*"), new From("pet")));
+        assertEquals(3, query.interpret(context).size());
     }
 
     @Test
