@@ -32,7 +32,7 @@ _Source: [Source Making](https://sourcemaking.com/design_patterns/behavioral_pat
 - [Mediator](./BehavioralPatterns/Mediator/src/main/java/Main.java): how and which objects interact with each other
 - [Memento](./BehavioralPatterns/Memento/src/main/java/Main.java): what and when private information is stored outside an object
 - [Observer](./BehavioralPatterns/Observer/src/main/java/Main.java): number of objects that depend on another object, how the dependent objects stay up-to-date
-- [State](#): states of an object
+- [State](./BehavioralPatterns/State/src/main/java/Main.java): states of an object
 - [Strategy](./BehavioralPatterns/Strategy/src/main/java/Main.java): implementation of different algorithms at runtime
 - [Template Method](./BehavioralPatterns/TemplateMethod/src/main/java/Main.java): steps of an algorithm
 - [Visitor](#): operations that can be applied to object(s) without changing their class(es)

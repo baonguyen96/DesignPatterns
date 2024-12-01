@@ -40,6 +40,12 @@ public class ContextTest {
         assertEquals(expected, actual);
     }
 
+    @Test(expected = Exception.class)
+    public void search_dne() {
+        Expression query = new Select(Collections.singletonList("*"), new From("dne"));
+        query.interpret(context);
+    }
+
     @Test
     public void search_allWithLimit() {
         Expression query = new Limit(1, new Select(Collections.singletonList("*"), new From("pet")));

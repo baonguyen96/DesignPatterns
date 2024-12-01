@@ -3,7 +3,6 @@ package sql.context;
 import java.util.*;
 import java.util.function.Predicate;
 import java.util.stream.Collectors;
-import java.util.stream.Stream;
 
 public class Context {
     private static final Map<String, Table> tables = new HashMap<>();
@@ -54,12 +53,10 @@ public class Context {
     }
 
     public List<String> search() {
-        List<String> result = tables
-                .entrySet()
+        List<String> result = Context.tables
+                .get(this.table.toLowerCase())
+                .getRows()
                 .stream()
-                .filter(entry -> entry.getKey().equalsIgnoreCase(this.table))
-                .flatMap(entry -> Stream.of(entry.getValue().getRows()))
-                .flatMap(Collection::stream)
                 .filter(row -> row
                         .getColumns()
                         .stream()

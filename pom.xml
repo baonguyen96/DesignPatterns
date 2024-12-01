@@ -12,6 +12,7 @@
         <module>CreationalPatterns</module>
         <module>StructuralPatterns</module>
         <module>BehavioralPatterns</module>
+        <module>BehavioralPatterns/State</module>
     </modules>
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
