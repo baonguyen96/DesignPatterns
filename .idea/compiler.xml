@@ -12,6 +12,7 @@
         <module name="Prototype" />
         <module name="Interpreter" />
         <module name="Composite" />
+        <module name="Visitor" />
         <module name="Builder" />
         <module name="Adapter" />
         <module name="AbstractFactory" />

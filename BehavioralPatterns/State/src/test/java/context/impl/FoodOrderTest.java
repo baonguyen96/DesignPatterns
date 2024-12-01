@@ -6,10 +6,9 @@ import state.impl.*;
 import static org.junit.Assert.*;
 
 public class FoodOrderTest {
-    private final FoodOrder order = new FoodOrder();
-
     @Test
     public void testWorkflow() {
+        FoodOrder order = new FoodOrder();
         assertTrue(order.getOrderState() instanceof InitialState);
 
         order.transitionToNextState();
@@ -29,5 +28,6 @@ public class FoodOrderTest {
 
         order.transitionToNextState();
         assertTrue(order.getOrderState() instanceof DeliveredState);
+        assertFalse(order.getOrderState().getStatus().isEmpty());
     }
 }

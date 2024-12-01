@@ -35,7 +35,7 @@ _Source: [Source Making](https://sourcemaking.com/design_patterns/behavioral_pat
 - [State](./BehavioralPatterns/State/src/main/java/Main.java): states of an object
 - [Strategy](./BehavioralPatterns/Strategy/src/main/java/Main.java): implementation of different algorithms at runtime
 - [Template Method](./BehavioralPatterns/TemplateMethod/src/main/java/Main.java): steps of an algorithm
-- [Visitor](#): operations that can be applied to object(s) without changing their class(es)
+- [Visitor](./BehavioralPatterns/Visitor/src/main/java/Main.java): operations that can be applied to object(s) without changing their class(es)
 
 
 ### [Creational Patterns](./CreationalPatterns)
