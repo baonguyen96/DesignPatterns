@@ -27,15 +27,15 @@ _Source: [Source Making](https://sourcemaking.com/design_patterns/behavioral_pat
 
 - [Chain of Responsibility](./BehavioralPatterns/ChainOfResponsibility/src/main/java/Main.java): object that can fulfill a request
 - [Command](./BehavioralPatterns/Command/src/main/java/Main.java): when and how a request is fulfilled
-- [Interpreter](#): grammar and interpretation of a language
+- [Interpreter](./BehavioralPatterns/Interpreter/src/main/java/Main.java): grammar and interpretation of a language
 - [Iterator](./BehavioralPatterns/Iterator/src/main/java/Main.java): how an aggregate's elements are accessed and traversed
-- [Mediator](#): how and which objects interact with each other
-- [Memento](#): what and when private information is stored outside an object
+- [Mediator](./BehavioralPatterns/Mediator/src/main/java/Main.java): how and which objects interact with each other
+- [Memento](./BehavioralPatterns/Memento/src/main/java/Main.java): what and when private information is stored outside an object
 - [Observer](./BehavioralPatterns/Observer/src/main/java/Main.java): number of objects that depend on another object, how the dependent objects stay up-to-date
-- [State](#): states of an object
+- [State](./BehavioralPatterns/State/src/main/java/Main.java): states of an object
 - [Strategy](./BehavioralPatterns/Strategy/src/main/java/Main.java): implementation of different algorithms at runtime
 - [Template Method](./BehavioralPatterns/TemplateMethod/src/main/java/Main.java): steps of an algorithm
-- [Visitor](#): operations that can be applied to object(s) without changing their class(es)
+- [Visitor](./BehavioralPatterns/Visitor/src/main/java/Main.java): operations that can be applied to object(s) without changing their class(es)
 
 
 ### [Creational Patterns](./CreationalPatterns)

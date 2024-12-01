@@ -2,7 +2,6 @@ package command;
 
 import command.impl.BuyStockOrder;
 import command.impl.SellStockOrder;
-import org.junit.Before;
 import org.junit.FixMethodOrder;
 import org.junit.Test;
 import org.junit.runners.MethodSorters;
@@ -12,12 +11,7 @@ import static org.junit.Assert.*;
 
 @FixMethodOrder(MethodSorters.NAME_ASCENDING)
 public class BrokerTest {
-    private Broker broker;
-
-    @Before
-    public void setup() {
-        broker = new Broker();
-    }
+    private final Broker broker = new Broker();
 
     @Test
     public void test1_takeOrder() {
